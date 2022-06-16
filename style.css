@@ -1,0 +1,29 @@
+body {
+    font: 'Raleway', sans-serif;
+    color: rgba(0, 0, 0, .5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top: 15%;
+    background: linear-gradient(to right, red, rgb(60, 6, 207));
+}
+
+.colorBlock {
+    border: none;
+    outline: none;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    -webkit-apperance: none;
+}
+
+.colorBlock::-webkit-color-swatch-wrapper {
+    padding: 0;
+    color: rgba(0, 0, 0, 0);
+}
+
+.colorBlock::-webkit-color-swatch {
+    border: none;
+    border-radius: 50%;
+    color: rgba(0, 0, 0, 0);
+}
