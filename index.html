@@ -11,16 +11,28 @@
 
 <body id="background">
     <div class="header">
-        <h1>Background Generator</h1>
+        <span><h1>Background Generator</h1></span>
     </div>
-    <div class="colorPickers">
-        <input class="color1 colorBlock" type="color" name="color1" value="#e42f0f">
-        <input class="color2 colorBlock" type="color" name="color2" value="#1d09cf">
-        <input class="color3 colorBlock" type="color" name="color3" value="#1d09cf">
+    <div id="range-picker">
+            <div id="rangeRadios">
+                <span><input type="radio" id="two-colors" name="range" value="two" checked>
+                <label>2</label><br></span>
+                <span><input type="radio" id="three-colors" name="range" value="three">
+                <label>3</label><br></span>
+                <span><input type="radio" id="four-colors" name="range" value="three">
+                <label>4</label><br></span>
+        </div>
     </div>
-    <h3 class="colorValues"></h3>
+    <div id="colorPickers">
+            <input id="color1" class="colorBlock" type="color" name="color1" value="#e42f0f">
+            <input id="color2" class="colorBlock" type="color" name="color2" value="#05482f">
+            <input id="color3" class="colorBlock" type="color" name="color3" value="#a6a3bd" style="display: none;">
+            <input id="color4" class="colorBlock" type="color" name="color4" value="#3b65bd" style="display: none;">
+        </div>
+    <span><h3 class="colorValues"></h3></span>
 
     <script type="text/javascript" src="script.js"></script>
 </body>
 
 </html>
+

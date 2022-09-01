@@ -1,10 +1,32 @@
 body {
     font: 'Raleway', sans-serif;
-    color: rgba(0, 0, 0, .5);
+    color: #000000c4;
     text-align: center;
     letter-spacing: .5em;
     top: 15%;
     background: linear-gradient(to right, red, rgb(60, 6, 207));
+}
+
+#range-picker,
+span {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    -webkit-text-stroke: 1px #ffffff20;
+    background-color: #00000080;
+    width: 33rem;
+    padding: 1rem;
+    border-radius: 100px;
+
+}
+
+#rangeRadios {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 5rem;
 }
 
 .colorBlock {
@@ -18,7 +40,7 @@ body {
 
 .colorBlock::-webkit-color-swatch-wrapper {
     padding: 0;
-    color: rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0, 0.041);
 }
 
 .colorBlock::-webkit-color-swatch {
