@@ -47,8 +47,11 @@ document.addEventListener('DOMContentLoaded', function(){
         if (three.checked) {
 
             inputThree.style.display = null;
+            inputFour.style.display = 'none';
             setBackground();
             inputThree.addEventListener("input", setBackground);
+            inputFour.removeEventListener("input", setBackground);
+
 
         } else if (four.checked) {
 
@@ -64,7 +67,7 @@ document.addEventListener('DOMContentLoaded', function(){
             inputFour.style.display = 'none';
             setBackground();
             inputThree.removeEventListener("input", setBackground);
-            inputFour.addEventListener("input", setBackground);
+            inputFour.removeEventListener("input", setBackground);
 
         }
       });
