@@ -9,7 +9,7 @@ body {
 
 #range-picker,
 #colorPickers,
-span {
+.title {
     display: flex;
     justify-content: center;
 }
@@ -26,15 +26,10 @@ h1 {
 #rangeRadios {
     display: flex;
     justify-content: space-around;
-    width: 100%;
+    width: 20%;
     margin: 5rem;
-}
-
-#rangeRadios > div {
     border: solid black 1px
 }
-
-#colorPickers
 
 .colorBlock {
     border: none;
