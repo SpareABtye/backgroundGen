@@ -30,6 +30,10 @@ h1 {
     margin: 5rem;
 }
 
+#rangeRadios > div {
+    border: solid black 1px
+}
+
 #colorPickers
 
 .colorBlock {
